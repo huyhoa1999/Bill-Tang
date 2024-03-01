@@ -1,0 +1,265 @@
+/*
+Theme Name: Pricom - Child
+Theme URI: https://harutheme.com/pricom
+Author: HaruTheme
+Author URI: https://harutheme.com/
+Description: This is child theme of Pricom
+Template: pricom
+Version: 1.0.0
+*/
+
+/*---------------------------------
+  	Write your css code from here
+------------------------------------*/
+
+.nbd-xlabel-wrap > label > b {
+  font-weight: 500 !important;
+}
+
+.nbd-field-content .nbd-xlabel-wrap input:checked + label:after {
+   width: 0 !important;
+   height: 0 !important;
+   border: none !important;
+}
+
+body .nbd-field-input-wrap input.nbo-dimension[type="number"] { -moz-appearance: textfield !important; }
+
+.nbd-xlabel-wrapper .bordert {
+    border-color: transparent;
+    box-shadow: 0 0 0 0.125rem #DD1D26;
+    border-radius: 0.1875rem !important;
+    padding: 0;
+}
+
+.nbd-gallery .nbdl-search-bar {
+   top: 335%;
+}
+
+.submit-upload-design, .nbu-login-btn , .nbd-upload-inner p , .nbu-inputfile + label svg , .nbu-inputfile + label , #nbd__content__overlay h3.h__block{
+  color: #000000 !important;
+}
+
+.nbdesigner_frontend_container .nbd-actions-wrap label {
+  border-radius: 0.1875rem !important;
+}
+
+.nbdesigner_frontend_container .nbd-actions-wrap label:hover {
+    box-shadow: 0 0 0.625rem 0 rgba(75,89,109,0.25);
+    border-color: transparent;
+}
+
+@media(max-width: 600px) {
+    .nbdesigner_frontend_container .nbd-actions-wrap {
+        flex-direction: column;
+    }
+    .nbdesigner_frontend_container .tile-radio-button__buildflow-media-flex {
+        display: flex;
+        gap: 30px;
+    }
+    .nbdesigner_frontend_container .tile-radio-button__buildflow-media-flex .media-flex__img {
+        width: 33%;
+    }
+    .nbdesigner_frontend_container svg.tile-radio-button__svg-image.svg-icon {
+        height: 65px !important;
+    }
+
+    .nbdesigner_frontend_container .nbd-actions-wrap label {
+        margin-bottom: 10px;
+    }
+    .media-flex__img .mb {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .nbd-actions-wrap label[for="buildflow_designTemplateHub"] {
+        width: 99%;
+    }
+
+}
+
+.nbd-popup-wrap .layout__item__inner {
+  height: 200px!important;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+  color: #7e7e7e;
+}
+
+body {
+  color: #000000;
+  font-family: 'Outfit';
+  line-height: 1.8;
+  font-size: 16px;
+  margin: 0;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+.nbd-modern-layout .haru-single-product .sold-individually .single-product-top form.cart .quantity {
+  display: none;
+}
+
+body.nbd-modern-layout .single-product-top form.cart .quantity {
+  display: none;
+  float: left;
+  margin-right: 10px;
+}
+
+body.nbd-modern-layout .single-product-top form.cart .single_add_to_cart_button {
+  float: left;
+  height: 48px;
+  padding: 0 20px;
+  width: 100%;
+  max-width: 100%
+}
+
+.single-product-top form.cart .single_add_to_cart_button {
+/*  float: left;*/
+  height: 48px;
+  padding: 0 20px;
+  width: 100%;
+  max-width: calc(96% - 110px);
+}
+
+.woocommerce-cart-form .cart_item .product-name a,.woocommerce-checkout-review-order-wrap .product-name a {
+  background: none;
+  margin-bottom: 10px;
+} 
+
+table.nbo-summary-table tr td {
+  width: 60% !important;
+}
+
+.woocommerce-js input.button:hover {
+ /* background: #c61a22;
+  color: #fff;
+  transition: all .3s;*/
+}
+
+#order_review a.nbd-create-design,#order_review a.nbd-reup-design {
+    color: #000;
+    font-size: 14px;
+}
+
+#order_review a.nbo-edit-option-cart,#order_review a.nbd-edit-design, #order_review a.nbd-upload-design {
+    font-weight: 600;
+    color: #000;
+}
+
+#order_review a.nbd-create-design:hover,#order_review a.nbd-reup-design:hover,#order_review a.nbo-edit-option-cart:hover,#order_review a.nbd-edit-design:hover, #order_review a.nbd-upload-design:hover {
+    background: transparent;
+    color: #dd1d26;
+    transition: all .3s;
+}
+
+/*.nbd-swatch-wrap input[type="radio"]:first-child:checked + label:after, 
+.nbo-checkbox-wrap input[type="checkbox"]:first-child:checked + label:after {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+    content: "";
+    width: 6px;
+    height: 10px;
+    display: block;
+    border: solid #ffffff!important;
+    border-width: 0 2px 2px 0 !important;
+    position: absolute;
+    top: 7px;
+    left: 12px;
+}*/
+
+body.single-product input.nbo-dimension2 {
+    appearance: textfield;
+    -moz-appearance: textfield; /* Firefox */
+    -webkit-appearance: textfield; /* Webkit/Blink browsers */
+    -ms-appearance: textfield; /* IE/Edge */
+    -o-appearance: textfield;
+    text-align: center;
+    width: 60px !important;
+    padding-left: 0;
+}
+
+body.single-product input.nbo-dimension2::-webkit-outer-spin-button,
+body.single-product input.nbo-dimension2::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.nbo-delivery-custom-quantity .nbd-button {
+    border-radius: 5px;
+    background: #dd1d26;
+    color: #fff;
+    display: inline-block;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 25px;
+    transition: all .3s;
+    text-align: center;
+    width: 75%;
+}
+
+.nbo-fields-wrapper .single-product-top form.cart .quantity2, .single-product-top form.cart .quantity  {
+    max-width: 150px !important;
+} 
+
+.woocommerce-cart-form td.product-name br, #order_review td.product-name br{
+    display: none !important;
+}
+
+.woocommerce-cart-form td.product-name a, #order_review td.product-name a {
+    display: inline-block !important;
+}
+
+.woocommerce-cart-form td.product-name a.remove, #order_review td.product-name a.remove {
+    display: inline !important;
+    padding: 0;
+    margin-left: 15px;
+}
+
+.nbd-cart-item-upload-preview-wrap {
+    display: inherit !important;
+}
+
+span.nodiss bdi {
+    color: #9b9b9b;
+}
+
+span.ydiss bdi {
+    color: #dd1d26;
+}
+
+.post-type-archive-product input.nbo-dimension2::-webkit-outer-spin-button,
+.post-type-archive-product input.nbo-dimension2::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.post-type-archive-product input.nbo-dimension2 {
+    text-align: center;
+    padding: 0;
+}
+
+.mfp-content .nbd-actions-wrap.thect .hedera {
+    font-size: 14px !important;
+}
+
+.mfp-content ul.ulctth li{
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.mfp-content .single-product-summary .quantity {
+    display: none;
+}
+
+.mfp-content .single-product-top form.cart .single_add_to_cart_button {
+    max-width: 100%;
+}
